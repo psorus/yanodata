@@ -1,5 +1,3479 @@
 {
-    "cardio":{
-        "last":0
-    }
+  "annthyroid": {
+    "number_of_samples": 7200,
+    "number_of_features": 6,
+    "name": "annthyroid",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7200,
+      6
+    ],
+    "number_anomalies": 534,
+    "number_normals": 6666,
+    "fraction_anomalies": 0.07416666666666667,
+    "textual": false,
+    "categorical": false,
+    "nominal": 6,
+    "numeric": 0,
+    "index": 0
+  },
+  "arrhythmia": {
+    "number_of_samples": 452,
+    "number_of_features": 274,
+    "name": "arrhythmia",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      452,
+      274
+    ],
+    "number_anomalies": 66,
+    "number_normals": 386,
+    "fraction_anomalies": 0.14601769911504425,
+    "textual": false,
+    "categorical": false,
+    "nominal": 200,
+    "numeric": 74,
+    "index": 0
+  },
+  "breastw": {
+    "number_of_samples": 683,
+    "number_of_features": 9,
+    "name": "breastw",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      683,
+      9
+    ],
+    "number_anomalies": 239,
+    "number_normals": 444,
+    "fraction_anomalies": 0.34992679355783307,
+    "textual": false,
+    "categorical": false,
+    "nominal": 9,
+    "numeric": 0,
+    "index": 0
+  },
+  "cardio": {
+    "number_of_samples": 1831,
+    "number_of_features": 21,
+    "name": "cardio",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1831,
+      21
+    ],
+    "number_anomalies": 176,
+    "number_normals": 1655,
+    "fraction_anomalies": 0.0961223375204806,
+    "textual": false,
+    "categorical": false,
+    "nominal": 16,
+    "numeric": 5,
+    "index": 0
+  },
+  "cifar0": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar1": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar2": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar3": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar4": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar5": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar5",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar6": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar6",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar7": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar7",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar8": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cifar9": {
+    "number_of_samples": 7000,
+    "number_of_features": 3072,
+    "name": "cifar9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7000,
+      3072
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 6000,
+    "fraction_anomalies": 0.14285714285714285,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3072,
+    "numeric": 0,
+    "index": 0
+  },
+  "cover": {
+    "number_of_samples": 286048,
+    "number_of_features": 10,
+    "name": "cover",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      286048,
+      10
+    ],
+    "number_anomalies": 2747,
+    "number_normals": 283301,
+    "fraction_anomalies": 0.009603283365029646,
+    "textual": false,
+    "categorical": false,
+    "nominal": 10,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion0": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion1": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion2": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion3": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion4": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion5": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion5",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion6": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion6",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion7": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion7",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion8": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "fashion9": {
+    "number_of_samples": 8000,
+    "number_of_features": 784,
+    "name": "fashion9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8000,
+      784
+    ],
+    "number_anomalies": 1000,
+    "number_normals": 7000,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "http": {
+    "number_of_samples": 567498,
+    "number_of_features": 3,
+    "name": "http",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      567498,
+      3
+    ],
+    "number_anomalies": 2211,
+    "number_normals": 565287,
+    "fraction_anomalies": 0.003896048972859816,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3,
+    "numeric": 0,
+    "index": 0
+  },
+  "ionosphere": {
+    "number_of_samples": 351,
+    "number_of_features": 33,
+    "name": "ionosphere",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      351,
+      33
+    ],
+    "number_anomalies": 126,
+    "number_normals": 225,
+    "fraction_anomalies": 0.358974358974359,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1,
+    "numeric": 32,
+    "index": 0
+  },
+  "letter": {
+    "number_of_samples": 1600,
+    "number_of_features": 32,
+    "name": "letter",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1600,
+      32
+    ],
+    "number_anomalies": 100,
+    "number_normals": 1500,
+    "fraction_anomalies": 0.0625,
+    "textual": false,
+    "categorical": false,
+    "nominal": 32,
+    "numeric": 0,
+    "index": 0
+  },
+  "mammography": {
+    "number_of_samples": 11183,
+    "number_of_features": 6,
+    "name": "mammography",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      11183,
+      6
+    ],
+    "number_anomalies": 260,
+    "number_normals": 10923,
+    "fraction_anomalies": 0.023249575248144506,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3,
+    "numeric": 3,
+    "index": 0
+  },
+  "mnist0": {
+    "number_of_samples": 7883,
+    "number_of_features": 784,
+    "name": "mnist0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7883,
+      784
+    ],
+    "number_anomalies": 980,
+    "number_normals": 6903,
+    "fraction_anomalies": 0.12431815298744132,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist1": {
+    "number_of_samples": 9012,
+    "number_of_features": 784,
+    "name": "mnist1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      9012,
+      784
+    ],
+    "number_anomalies": 1135,
+    "number_normals": 7877,
+    "fraction_anomalies": 0.12594318686196182,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist2": {
+    "number_of_samples": 8022,
+    "number_of_features": 784,
+    "name": "mnist2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8022,
+      784
+    ],
+    "number_anomalies": 1032,
+    "number_normals": 6990,
+    "fraction_anomalies": 0.1286462228870606,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist3": {
+    "number_of_samples": 8151,
+    "number_of_features": 784,
+    "name": "mnist3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8151,
+      784
+    ],
+    "number_anomalies": 1010,
+    "number_normals": 7141,
+    "fraction_anomalies": 0.12391117654275549,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist4": {
+    "number_of_samples": 7806,
+    "number_of_features": 784,
+    "name": "mnist4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7806,
+      784
+    ],
+    "number_anomalies": 982,
+    "number_normals": 6824,
+    "fraction_anomalies": 0.12580066615424032,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist5": {
+    "number_of_samples": 7205,
+    "number_of_features": 784,
+    "name": "mnist5",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7205,
+      784
+    ],
+    "number_anomalies": 892,
+    "number_normals": 6313,
+    "fraction_anomalies": 0.1238029146426093,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist6": {
+    "number_of_samples": 7834,
+    "number_of_features": 784,
+    "name": "mnist6",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7834,
+      784
+    ],
+    "number_anomalies": 958,
+    "number_normals": 6876,
+    "fraction_anomalies": 0.12228746489660454,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist7": {
+    "number_of_samples": 8321,
+    "number_of_features": 784,
+    "name": "mnist7",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      8321,
+      784
+    ],
+    "number_anomalies": 1028,
+    "number_normals": 7293,
+    "fraction_anomalies": 0.1235428434082442,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist8": {
+    "number_of_samples": 7799,
+    "number_of_features": 784,
+    "name": "mnist8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7799,
+      784
+    ],
+    "number_anomalies": 974,
+    "number_normals": 6825,
+    "fraction_anomalies": 0.12488780612899089,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist9": {
+    "number_of_samples": 7967,
+    "number_of_features": 784,
+    "name": "mnist9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7967,
+      784
+    ],
+    "number_anomalies": 1009,
+    "number_normals": 6958,
+    "fraction_anomalies": 0.12664742061001633,
+    "textual": false,
+    "categorical": false,
+    "nominal": 784,
+    "numeric": 0,
+    "index": 0
+  },
+  "mnist": {
+    "number_of_samples": 7603,
+    "number_of_features": 100,
+    "name": "mnist",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      7603,
+      100
+    ],
+    "number_anomalies": 700,
+    "number_normals": 6903,
+    "fraction_anomalies": 0.09206892016309351,
+    "textual": false,
+    "categorical": false,
+    "nominal": 100,
+    "numeric": 0,
+    "index": 0
+  },
+  "musk": {
+    "number_of_samples": 3062,
+    "number_of_features": 166,
+    "name": "musk",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3062,
+      166
+    ],
+    "number_anomalies": 97,
+    "number_normals": 2965,
+    "fraction_anomalies": 0.03167864141084259,
+    "textual": false,
+    "categorical": false,
+    "nominal": 125,
+    "numeric": 41,
+    "index": 0
+  },
+  "optdigits": {
+    "number_of_samples": 5216,
+    "number_of_features": 64,
+    "name": "optdigits",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5216,
+      64
+    ],
+    "number_anomalies": 150,
+    "number_normals": 5066,
+    "fraction_anomalies": 0.028757668711656442,
+    "textual": false,
+    "categorical": false,
+    "nominal": 64,
+    "numeric": 0,
+    "index": 0
+  },
+  "pendigits": {
+    "number_of_samples": 6870,
+    "number_of_features": 16,
+    "name": "pendigits",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      6870,
+      16
+    ],
+    "number_anomalies": 156,
+    "number_normals": 6714,
+    "fraction_anomalies": 0.022707423580786028,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 16,
+    "index": 0
+  },
+  "pima": {
+    "number_of_samples": 768,
+    "number_of_features": 8,
+    "name": "pima",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      768,
+      8
+    ],
+    "number_anomalies": 268,
+    "number_normals": 500,
+    "fraction_anomalies": 0.3489583333333333,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 4,
+    "index": 0
+  },
+  "satellite": {
+    "number_of_samples": 6435,
+    "number_of_features": 36,
+    "name": "satellite",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      6435,
+      36
+    ],
+    "number_anomalies": 2036,
+    "number_normals": 4399,
+    "fraction_anomalies": 0.3163947163947164,
+    "textual": false,
+    "categorical": false,
+    "nominal": 36,
+    "numeric": 0,
+    "index": 0
+  },
+  "satimage-2": {
+    "number_of_samples": 5803,
+    "number_of_features": 36,
+    "name": "satimage-2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5803,
+      36
+    ],
+    "number_anomalies": 71,
+    "number_normals": 5732,
+    "fraction_anomalies": 0.0122350508357746,
+    "textual": false,
+    "categorical": false,
+    "nominal": 36,
+    "numeric": 0,
+    "index": 0
+  },
+  "shuttle": {
+    "number_of_samples": 49097,
+    "number_of_features": 9,
+    "name": "shuttle",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      49097,
+      9
+    ],
+    "number_anomalies": 3511,
+    "number_normals": 45586,
+    "fraction_anomalies": 0.0715114976475141,
+    "textual": false,
+    "categorical": false,
+    "nominal": 9,
+    "numeric": 0,
+    "index": 0
+  },
+  "smtp": {
+    "number_of_samples": 95156,
+    "number_of_features": 3,
+    "name": "smtp",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      95156,
+      3
+    ],
+    "number_anomalies": 30,
+    "number_normals": 95126,
+    "fraction_anomalies": 0.0003152717642607928,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3,
+    "numeric": 0,
+    "index": 0
+  },
+  "speech": {
+    "number_of_samples": 3686,
+    "number_of_features": 400,
+    "name": "speech",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3686,
+      400
+    ],
+    "number_anomalies": 61,
+    "number_normals": 3625,
+    "fraction_anomalies": 0.016549104720564298,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 400,
+    "index": 0
+  },
+  "thyroid": {
+    "number_of_samples": 3772,
+    "number_of_features": 6,
+    "name": "thyroid",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3772,
+      6
+    ],
+    "number_anomalies": 93,
+    "number_normals": 3679,
+    "fraction_anomalies": 0.024655355249204668,
+    "textual": false,
+    "categorical": false,
+    "nominal": 6,
+    "numeric": 0,
+    "index": 0
+  },
+  "vertebral": {
+    "number_of_samples": 240,
+    "number_of_features": 6,
+    "name": "vertebral",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      240,
+      6
+    ],
+    "number_anomalies": 30,
+    "number_normals": 210,
+    "fraction_anomalies": 0.125,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 6,
+    "index": 0
+  },
+  "vowels": {
+    "number_of_samples": 1456,
+    "number_of_features": 12,
+    "name": "vowels",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1456,
+      12
+    ],
+    "number_anomalies": 50,
+    "number_normals": 1406,
+    "fraction_anomalies": 0.034340659340659344,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 12,
+    "index": 0
+  },
+  "wbc": {
+    "number_of_samples": 378,
+    "number_of_features": 30,
+    "name": "wbc",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      378,
+      30
+    ],
+    "number_anomalies": 21,
+    "number_normals": 357,
+    "fraction_anomalies": 0.05555555555555555,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 30,
+    "index": 0
+  },
+  "wine": {
+    "number_of_samples": 129,
+    "number_of_features": 13,
+    "name": "wine",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      129,
+      13
+    ],
+    "number_anomalies": 10,
+    "number_normals": 119,
+    "fraction_anomalies": 0.07751937984496124,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 13,
+    "index": 0
+  },
+  "pc4": {
+    "number_of_samples": 1458,
+    "number_of_features": 37,
+    "name": "pc4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1458,
+      37
+    ],
+    "number_anomalies": 178,
+    "number_normals": 1280,
+    "fraction_anomalies": 0.12208504801097393,
+    "textual": false,
+    "categorical": false,
+    "nominal": 27,
+    "numeric": 10,
+    "index": 0
+  },
+  "pc3": {
+    "number_of_samples": 1563,
+    "number_of_features": 37,
+    "name": "pc3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1563,
+      37
+    ],
+    "number_anomalies": 160,
+    "number_normals": 1403,
+    "fraction_anomalies": 0.10236724248240563,
+    "textual": false,
+    "categorical": false,
+    "nominal": 27,
+    "numeric": 10,
+    "index": 0
+  },
+  "kc1": {
+    "number_of_samples": 2109,
+    "number_of_features": 21,
+    "name": "kc1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      2109,
+      21
+    ],
+    "number_anomalies": 326,
+    "number_normals": 1783,
+    "fraction_anomalies": 0.15457562825983878,
+    "textual": false,
+    "categorical": false,
+    "nominal": 15,
+    "numeric": 6,
+    "index": 0
+  },
+  "pc1": {
+    "number_of_samples": 1109,
+    "number_of_features": 21,
+    "name": "pc1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1109,
+      21
+    ],
+    "number_anomalies": 77,
+    "number_normals": 1032,
+    "fraction_anomalies": 0.06943192064923355,
+    "textual": false,
+    "categorical": false,
+    "nominal": 10,
+    "numeric": 11,
+    "index": 0
+  },
+  "OVA_Breast": {
+    "number_of_samples": 1545,
+    "number_of_features": 10936,
+    "name": "OVA_Breast",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1545,
+      10936
+    ],
+    "number_anomalies": 344,
+    "number_normals": 1201,
+    "fraction_anomalies": 0.2226537216828479,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10936,
+    "index": 0
+  },
+  "OVA_Ovary": {
+    "number_of_samples": 1545,
+    "number_of_features": 10936,
+    "name": "OVA_Ovary",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1545,
+      10936
+    ],
+    "number_anomalies": 198,
+    "number_normals": 1347,
+    "fraction_anomalies": 0.12815533980582525,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10936,
+    "index": 0
+  },
+  "ozone-level-8hr": {
+    "number_of_samples": 2534,
+    "number_of_features": 72,
+    "name": "ozone-level-8hr",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      2534,
+      72
+    ],
+    "number_anomalies": 2374,
+    "number_normals": 160,
+    "fraction_anomalies": 0.9368587213891081,
+    "textual": false,
+    "categorical": false,
+    "nominal": 36,
+    "numeric": 36,
+    "index": 0
+  },
+  "phoneme": {
+    "number_of_samples": 5404,
+    "number_of_features": 5,
+    "name": "phoneme",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5404,
+      5
+    ],
+    "number_anomalies": 1586,
+    "number_normals": 3818,
+    "fraction_anomalies": 0.2934863064396743,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 5,
+    "index": 0
+  },
+  "elevators": {
+    "number_of_samples": 16599,
+    "number_of_features": 18,
+    "name": "elevators",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      16599,
+      18
+    ],
+    "number_anomalies": 5130,
+    "number_normals": 11469,
+    "fraction_anomalies": 0.30905476233508045,
+    "textual": false,
+    "categorical": false,
+    "nominal": 18,
+    "numeric": 0,
+    "index": 0
+  },
+  "MagicTelescope": {
+    "number_of_samples": 19020,
+    "number_of_features": 11,
+    "name": "MagicTelescope",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      19020,
+      11
+    ],
+    "number_anomalies": 6688,
+    "number_normals": 12332,
+    "fraction_anomalies": 0.3516298633017876,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 11,
+    "index": 0
+  },
+  "banknote-authentication": {
+    "number_of_samples": 1372,
+    "number_of_features": 4,
+    "name": "banknote-authentication",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1372,
+      4
+    ],
+    "number_anomalies": 610,
+    "number_normals": 762,
+    "fraction_anomalies": 0.4446064139941691,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4,
+    "index": 0
+  },
+  "cnae-9": {
+    "number_of_samples": 240,
+    "number_of_features": 856,
+    "name": "cnae-9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      240,
+      856
+    ],
+    "number_anomalies": 120,
+    "number_normals": 120,
+    "fraction_anomalies": 0.5,
+    "textual": false,
+    "categorical": false,
+    "nominal": 856,
+    "numeric": 0,
+    "index": 0
+  },
+  "gas-drift": {
+    "number_of_samples": 5574,
+    "number_of_features": 128,
+    "name": "gas-drift",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5574,
+      128
+    ],
+    "number_anomalies": 3009,
+    "number_normals": 2565,
+    "fraction_anomalies": 0.5398277717976319,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 128,
+    "index": 0
+  },
+  "har": {
+    "number_of_samples": 2950,
+    "number_of_features": 561,
+    "name": "har",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      2950,
+      561
+    ],
+    "number_anomalies": 1406,
+    "number_normals": 1544,
+    "fraction_anomalies": 0.4766101694915254,
+    "textual": false,
+    "categorical": false,
+    "nominal": 14,
+    "numeric": 547,
+    "index": 0
+  },
+  "hill-valley": {
+    "number_of_samples": 1212,
+    "number_of_features": 100,
+    "name": "hill-valley",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1212,
+      100
+    ],
+    "number_anomalies": 606,
+    "number_normals": 606,
+    "fraction_anomalies": 0.5,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 100,
+    "index": 0
+  },
+  "page-blocks": {
+    "number_of_samples": 5473,
+    "number_of_features": 10,
+    "name": "page-blocks",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5473,
+      10
+    ],
+    "number_anomalies": 560,
+    "number_normals": 4913,
+    "fraction_anomalies": 0.10232048236798831,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 8,
+    "index": 0
+  },
+  "segment": {
+    "number_of_samples": 660,
+    "number_of_features": 19,
+    "name": "segment",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      660,
+      19
+    ],
+    "number_anomalies": 330,
+    "number_normals": 330,
+    "fraction_anomalies": 0.5,
+    "textual": false,
+    "categorical": false,
+    "nominal": 3,
+    "numeric": 16,
+    "index": 0
+  },
+  "steel-plates-fault": {
+    "number_of_samples": 1075,
+    "number_of_features": 27,
+    "name": "steel-plates-fault",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1075,
+      27
+    ],
+    "number_anomalies": 673,
+    "number_normals": 402,
+    "fraction_anomalies": 0.626046511627907,
+    "textual": false,
+    "categorical": false,
+    "nominal": 7,
+    "numeric": 20,
+    "index": 0
+  },
+  "Bioresponse": {
+    "number_of_samples": 3751,
+    "number_of_features": 1776,
+    "name": "Bioresponse",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3751,
+      1776
+    ],
+    "number_anomalies": 1717,
+    "number_normals": 2034,
+    "fraction_anomalies": 0.4577446014396161,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1684,
+    "numeric": 92,
+    "index": 0
+  },
+  "spambase": {
+    "number_of_samples": 4601,
+    "number_of_features": 57,
+    "name": "spambase",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4601,
+      57
+    ],
+    "number_anomalies": 1813,
+    "number_normals": 2788,
+    "fraction_anomalies": 0.39404477287546186,
+    "textual": false,
+    "categorical": false,
+    "nominal": 51,
+    "numeric": 6,
+    "index": 0
+  },
+  "waveform-5000": {
+    "number_of_samples": 3345,
+    "number_of_features": 40,
+    "name": "waveform-5000",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3345,
+      40
+    ],
+    "number_anomalies": 1653,
+    "number_normals": 1692,
+    "fraction_anomalies": 0.49417040358744396,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 40,
+    "index": 0
+  },
+  "pollen": {
+    "number_of_samples": 3848,
+    "number_of_features": 5,
+    "name": "pollen",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3848,
+      5
+    ],
+    "number_anomalies": 1924,
+    "number_normals": 1924,
+    "fraction_anomalies": 0.5,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 5,
+    "index": 0
+  },
+  "qsar-biodeg": {
+    "number_of_samples": 1055,
+    "number_of_features": 41,
+    "name": "qsar-biodeg",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1055,
+      41
+    ],
+    "number_anomalies": 699,
+    "number_normals": 356,
+    "fraction_anomalies": 0.6625592417061611,
+    "textual": false,
+    "categorical": false,
+    "nominal": 24,
+    "numeric": 17,
+    "index": 0
+  },
+  "modspambase": {
+    "number_of_samples": 4601,
+    "number_of_features": 56,
+    "name": "modspambase",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4601,
+      56
+    ],
+    "number_anomalies": 1813,
+    "number_normals": 2788,
+    "fraction_anomalies": 0.39404477287546186,
+    "textual": false,
+    "categorical": false,
+    "nominal": 51,
+    "numeric": 5,
+    "index": 0
+  },
+  "Hepatitis": {
+    "number_of_samples": 155,
+    "number_of_features": 19,
+    "name": "Hepatitis",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      155,
+      19
+    ],
+    "number_anomalies": 32,
+    "number_normals": 123,
+    "fraction_anomalies": 0.2064516129032258,
+    "textual": false,
+    "categorical": false,
+    "nominal": 13,
+    "numeric": 6,
+    "index": 0
+  },
+  "Iris_setosa": {
+    "number_of_samples": 150,
+    "number_of_features": 4,
+    "name": "Iris_setosa",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      150,
+      4
+    ],
+    "number_anomalies": 100,
+    "number_normals": 50,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4,
+    "index": 0
+  },
+  "Iris_versicolor": {
+    "number_of_samples": 150,
+    "number_of_features": 4,
+    "name": "Iris_versicolor",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      150,
+      4
+    ],
+    "number_anomalies": 100,
+    "number_normals": 50,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4,
+    "index": 0
+  },
+  "Iris_virginica": {
+    "number_of_samples": 150,
+    "number_of_features": 4,
+    "name": "Iris_virginica",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      150,
+      4
+    ],
+    "number_anomalies": 100,
+    "number_normals": 50,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4,
+    "index": 0
+  },
+  "BreastW_malignant": {
+    "number_of_samples": 699,
+    "number_of_features": 9,
+    "name": "BreastW_malignant",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      699,
+      9
+    ],
+    "number_anomalies": 458,
+    "number_normals": 241,
+    "fraction_anomalies": 0.6552217453505007,
+    "textual": false,
+    "categorical": false,
+    "nominal": 9,
+    "numeric": 0,
+    "index": 0
+  },
+  "BreastW_benign": {
+    "number_of_samples": 699,
+    "number_of_features": 9,
+    "name": "BreastW_benign",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      699,
+      9
+    ],
+    "number_anomalies": 241,
+    "number_normals": 458,
+    "fraction_anomalies": 0.3447782546494993,
+    "textual": false,
+    "categorical": false,
+    "nominal": 9,
+    "numeric": 0,
+    "index": 0
+  },
+  "HeartC": {
+    "number_of_samples": 297,
+    "number_of_features": 13,
+    "name": "HeartC",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      297,
+      13
+    ],
+    "number_anomalies": 160,
+    "number_normals": 137,
+    "fraction_anomalies": 0.5387205387205387,
+    "textual": false,
+    "categorical": false,
+    "nominal": 8,
+    "numeric": 5,
+    "index": 0
+  },
+  "Sonar_mines": {
+    "number_of_samples": 208,
+    "number_of_features": 60,
+    "name": "Sonar_mines",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      208,
+      60
+    ],
+    "number_anomalies": 97,
+    "number_normals": 111,
+    "fraction_anomalies": 0.46634615384615385,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 60,
+    "index": 0
+  },
+  "Sonar_rocks": {
+    "number_of_samples": 208,
+    "number_of_features": 60,
+    "name": "Sonar_rocks",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      208,
+      60
+    ],
+    "number_anomalies": 111,
+    "number_normals": 97,
+    "fraction_anomalies": 0.5336538461538461,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 60,
+    "index": 0
+  },
+  "Biomed_normal": {
+    "number_of_samples": 194,
+    "number_of_features": 5,
+    "name": "Biomed_normal",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      194,
+      5
+    ],
+    "number_anomalies": 67,
+    "number_normals": 127,
+    "fraction_anomalies": 0.34536082474226804,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 5,
+    "index": 0
+  },
+  "Biomed_carrier": {
+    "number_of_samples": 194,
+    "number_of_features": 5,
+    "name": "Biomed_carrier",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      194,
+      5
+    ],
+    "number_anomalies": 127,
+    "number_normals": 67,
+    "fraction_anomalies": 0.654639175257732,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 5,
+    "index": 0
+  },
+  "Imports": {
+    "number_of_samples": 159,
+    "number_of_features": 25,
+    "name": "Imports",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      159,
+      25
+    ],
+    "number_anomalies": 88,
+    "number_normals": 71,
+    "fraction_anomalies": 0.5534591194968553,
+    "textual": false,
+    "categorical": false,
+    "nominal": 9,
+    "numeric": 16,
+    "index": 0
+  },
+  "Arrhythmia": {
+    "number_of_samples": 420,
+    "number_of_features": 278,
+    "name": "Arrhythmia",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      420,
+      278
+    ],
+    "number_anomalies": 183,
+    "number_normals": 237,
+    "fraction_anomalies": 0.4357142857142857,
+    "textual": false,
+    "categorical": false,
+    "nominal": 199,
+    "numeric": 79,
+    "index": 0
+  },
+  "": {
+    "number_of_samples": 420,
+    "number_of_features": 278,
+    "name": "",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      420,
+      278
+    ],
+    "number_anomalies": 237,
+    "number_normals": 183,
+    "fraction_anomalies": 0.5642857142857143,
+    "textual": false,
+    "categorical": false,
+    "nominal": 199,
+    "numeric": 79,
+    "index": 0
+  },
+  "Diabetes_present": {
+    "number_of_samples": 768,
+    "number_of_features": 8,
+    "name": "Diabetes_present",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      768,
+      8
+    ],
+    "number_anomalies": 268,
+    "number_normals": 500,
+    "fraction_anomalies": 0.3489583333333333,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 4,
+    "index": 0
+  },
+  "Diabetes_absent": {
+    "number_of_samples": 768,
+    "number_of_features": 8,
+    "name": "Diabetes_absent",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      768,
+      8
+    ],
+    "number_anomalies": 500,
+    "number_normals": 268,
+    "fraction_anomalies": 0.6510416666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 4,
+    "index": 0
+  },
+  "Ecoli": {
+    "number_of_samples": 336,
+    "number_of_features": 7,
+    "name": "Ecoli",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      336,
+      7
+    ],
+    "number_anomalies": 284,
+    "number_normals": 52,
+    "fraction_anomalies": 0.8452380952380952,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 5,
+    "index": 0
+  },
+  "Concordia0": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia1": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia2": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia3": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia4": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia5": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia5",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia6": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia6",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia7": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia7",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia8": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia9": {
+    "number_of_samples": 4000,
+    "number_of_features": 1024,
+    "name": "Concordia9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      1024
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1024,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia0_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia0_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia1_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia1_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia2_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia2_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia3_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia3_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia4_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia4_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia5_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia5_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia6_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia6_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia7_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia7_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia8_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia8_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Concordia9_32": {
+    "number_of_samples": 4000,
+    "number_of_features": 256,
+    "name": "Concordia9_32",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4000,
+      256
+    ],
+    "number_anomalies": 3600,
+    "number_normals": 400,
+    "fraction_anomalies": 0.9,
+    "textual": false,
+    "categorical": false,
+    "nominal": 256,
+    "numeric": 0,
+    "index": 0
+  },
+  "Delft_pump_AR": {
+    "number_of_samples": 720,
+    "number_of_features": 160,
+    "name": "Delft_pump_AR",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      720,
+      160
+    ],
+    "number_anomalies": 531,
+    "number_normals": 189,
+    "fraction_anomalies": 0.7375,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 160,
+    "index": 0
+  },
+  "Delft_pump_5x3": {
+    "number_of_samples": 1500,
+    "number_of_features": 64,
+    "name": "Delft_pump_5x3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      1500,
+      64
+    ],
+    "number_anomalies": 1124,
+    "number_normals": 376,
+    "fraction_anomalies": 0.7493333333333333,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_5x1": {
+    "number_of_samples": 500,
+    "number_of_features": 64,
+    "name": "Delft_pump_5x1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      500,
+      64
+    ],
+    "number_anomalies": 367,
+    "number_normals": 133,
+    "fraction_anomalies": 0.734,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_3x2": {
+    "number_of_samples": 600,
+    "number_of_features": 64,
+    "name": "Delft_pump_3x2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      600,
+      64
+    ],
+    "number_anomalies": 463,
+    "number_normals": 137,
+    "fraction_anomalies": 0.7716666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_2x2": {
+    "number_of_samples": 400,
+    "number_of_features": 64,
+    "name": "Delft_pump_2x2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      400,
+      64
+    ],
+    "number_anomalies": 300,
+    "number_normals": 100,
+    "fraction_anomalies": 0.75,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_1x3": {
+    "number_of_samples": 300,
+    "number_of_features": 64,
+    "name": "Delft_pump_1x3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      300,
+      64
+    ],
+    "number_anomalies": 229,
+    "number_normals": 71,
+    "fraction_anomalies": 0.7633333333333333,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_5x3_noisy": {
+    "number_of_samples": 900,
+    "number_of_features": 64,
+    "name": "Delft_pump_5x3_noisy",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      900,
+      64
+    ],
+    "number_anomalies": 684,
+    "number_normals": 216,
+    "fraction_anomalies": 0.76,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_5x1_noisy": {
+    "number_of_samples": 300,
+    "number_of_features": 64,
+    "name": "Delft_pump_5x1_noisy",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      300,
+      64
+    ],
+    "number_anomalies": 222,
+    "number_normals": 78,
+    "fraction_anomalies": 0.74,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_3x2_noisy": {
+    "number_of_samples": 360,
+    "number_of_features": 64,
+    "name": "Delft_pump_3x2_noisy",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      360,
+      64
+    ],
+    "number_anomalies": 277,
+    "number_normals": 83,
+    "fraction_anomalies": 0.7694444444444445,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_2x2_noisy": {
+    "number_of_samples": 240,
+    "number_of_features": 64,
+    "name": "Delft_pump_2x2_noisy",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      240,
+      64
+    ],
+    "number_anomalies": 176,
+    "number_normals": 64,
+    "fraction_anomalies": 0.7333333333333333,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Delft_pump_1x3_noisy": {
+    "number_of_samples": 180,
+    "number_of_features": 64,
+    "name": "Delft_pump_1x3_noisy",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      180,
+      64
+    ],
+    "number_anomalies": 139,
+    "number_normals": 41,
+    "fraction_anomalies": 0.7722222222222223,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 64,
+    "index": 0
+  },
+  "Spambase_spam": {
+    "number_of_samples": 4601,
+    "number_of_features": 57,
+    "name": "Spambase_spam",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4601,
+      57
+    ],
+    "number_anomalies": 2788,
+    "number_normals": 1813,
+    "fraction_anomalies": 0.6059552271245382,
+    "textual": false,
+    "categorical": false,
+    "nominal": 51,
+    "numeric": 6,
+    "index": 0
+  },
+  "Spambase_other": {
+    "number_of_samples": 4601,
+    "number_of_features": 57,
+    "name": "Spambase_other",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4601,
+      57
+    ],
+    "number_anomalies": 1813,
+    "number_normals": 2788,
+    "fraction_anomalies": 0.39404477287546186,
+    "textual": false,
+    "categorical": false,
+    "nominal": 51,
+    "numeric": 6,
+    "index": 0
+  },
+  "wpbc_non_ret": {
+    "number_of_samples": 198,
+    "number_of_features": 33,
+    "name": "wpbc_non_ret",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      198,
+      33
+    ],
+    "number_anomalies": 47,
+    "number_normals": 151,
+    "fraction_anomalies": 0.23737373737373738,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 33,
+    "index": 0
+  },
+  "wpbc_ret": {
+    "number_of_samples": 198,
+    "number_of_features": 33,
+    "name": "wpbc_ret",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      198,
+      33
+    ],
+    "number_anomalies": 151,
+    "number_normals": 47,
+    "fraction_anomalies": 0.7626262626262627,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 33,
+    "index": 0
+  },
+  "Spectf_0": {
+    "number_of_samples": 349,
+    "number_of_features": 44,
+    "name": "Spectf_0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      349,
+      44
+    ],
+    "number_anomalies": 254,
+    "number_normals": 95,
+    "fraction_anomalies": 0.7277936962750716,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 40,
+    "index": 0
+  },
+  "Spectf_1": {
+    "number_of_samples": 349,
+    "number_of_features": 44,
+    "name": "Spectf_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      349,
+      44
+    ],
+    "number_anomalies": 95,
+    "number_normals": 254,
+    "fraction_anomalies": 0.2722063037249284,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 40,
+    "index": 0
+  },
+  "Colon_1": {
+    "number_of_samples": 62,
+    "number_of_features": 1908,
+    "name": "Colon_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      62,
+      1908
+    ],
+    "number_anomalies": 40,
+    "number_normals": 22,
+    "fraction_anomalies": 0.6451612903225806,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 1908,
+    "index": 0
+  },
+  "Colon_2": {
+    "number_of_samples": 62,
+    "number_of_features": 1908,
+    "name": "Colon_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      62,
+      1908
+    ],
+    "number_anomalies": 22,
+    "number_normals": 40,
+    "fraction_anomalies": 0.3548387096774194,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 1908,
+    "index": 0
+  },
+  "Leukemia_1": {
+    "number_of_samples": 72,
+    "number_of_features": 3571,
+    "name": "Leukemia_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      72,
+      3571
+    ],
+    "number_anomalies": 47,
+    "number_normals": 25,
+    "fraction_anomalies": 0.6527777777777778,
+    "textual": false,
+    "categorical": false,
+    "nominal": 58,
+    "numeric": 3513,
+    "index": 0
+  },
+  "Leukemia_2": {
+    "number_of_samples": 72,
+    "number_of_features": 3571,
+    "name": "Leukemia_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      72,
+      3571
+    ],
+    "number_anomalies": 25,
+    "number_normals": 47,
+    "fraction_anomalies": 0.3472222222222222,
+    "textual": false,
+    "categorical": false,
+    "nominal": 58,
+    "numeric": 3513,
+    "index": 0
+  },
+  "Metas_1": {
+    "number_of_samples": 145,
+    "number_of_features": 4919,
+    "name": "Metas_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      145,
+      4919
+    ],
+    "number_anomalies": 99,
+    "number_normals": 46,
+    "fraction_anomalies": 0.6827586206896552,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4919,
+    "index": 0
+  },
+  "Metas_2": {
+    "number_of_samples": 145,
+    "number_of_features": 4919,
+    "name": "Metas_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      145,
+      4919
+    ],
+    "number_anomalies": 46,
+    "number_normals": 99,
+    "fraction_anomalies": 0.31724137931034485,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 4919,
+    "index": 0
+  },
+  "Abalone_1_8": {
+    "number_of_samples": 4177,
+    "number_of_features": 10,
+    "name": "Abalone_1_8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4177,
+      10
+    ],
+    "number_anomalies": 2770,
+    "number_normals": 1407,
+    "fraction_anomalies": 0.6631553746708164,
+    "textual": false,
+    "categorical": false,
+    "nominal": 6,
+    "numeric": 4,
+    "index": 0
+  },
+  "Abalone_9_10": {
+    "number_of_samples": 4177,
+    "number_of_features": 10,
+    "name": "Abalone_9_10",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4177,
+      10
+    ],
+    "number_anomalies": 2854,
+    "number_normals": 1323,
+    "fraction_anomalies": 0.6832655015561407,
+    "textual": false,
+    "categorical": false,
+    "nominal": 6,
+    "numeric": 4,
+    "index": 0
+  },
+  "Abalone_11_29": {
+    "number_of_samples": 4177,
+    "number_of_features": 10,
+    "name": "Abalone_11_29",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      4177,
+      10
+    ],
+    "number_anomalies": 2730,
+    "number_normals": 1447,
+    "fraction_anomalies": 0.6535791237730428,
+    "textual": false,
+    "categorical": false,
+    "nominal": 6,
+    "numeric": 4,
+    "index": 0
+  },
+  "Balance_left": {
+    "number_of_samples": 625,
+    "number_of_features": 4,
+    "name": "Balance_left",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      625,
+      4
+    ],
+    "number_anomalies": 337,
+    "number_normals": 288,
+    "fraction_anomalies": 0.5392,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 0,
+    "index": 0
+  },
+  "Balance_middle": {
+    "number_of_samples": 625,
+    "number_of_features": 4,
+    "name": "Balance_middle",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      625,
+      4
+    ],
+    "number_anomalies": 576,
+    "number_normals": 49,
+    "fraction_anomalies": 0.9216,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 0,
+    "index": 0
+  },
+  "Balance_right": {
+    "number_of_samples": 625,
+    "number_of_features": 4,
+    "name": "Balance_right",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      625,
+      4
+    ],
+    "number_anomalies": 337,
+    "number_normals": 288,
+    "fraction_anomalies": 0.5392,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 0,
+    "index": 0
+  },
+  "Glass_building_float": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_building_float",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 144,
+    "number_normals": 70,
+    "fraction_anomalies": 0.6728971962616822,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Glass_building_nonfloat": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_building_nonfloat",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 138,
+    "number_normals": 76,
+    "fraction_anomalies": 0.6448598130841121,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Glass_vehicle": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_vehicle",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 197,
+    "number_normals": 17,
+    "fraction_anomalies": 0.9205607476635514,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Glass_containers": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_containers",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 201,
+    "number_normals": 13,
+    "fraction_anomalies": 0.9392523364485982,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Glass_tableware": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_tableware",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 205,
+    "number_normals": 9,
+    "fraction_anomalies": 0.9579439252336449,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Glass_headlamps": {
+    "number_of_samples": 214,
+    "number_of_features": 9,
+    "name": "Glass_headlamps",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      214,
+      9
+    ],
+    "number_anomalies": 185,
+    "number_normals": 29,
+    "fraction_anomalies": 0.8644859813084113,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 9,
+    "index": 0
+  },
+  "Ionosphere_good": {
+    "number_of_samples": 351,
+    "number_of_features": 34,
+    "name": "Ionosphere_good",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      351,
+      34
+    ],
+    "number_anomalies": 126,
+    "number_normals": 225,
+    "fraction_anomalies": 0.358974358974359,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 32,
+    "index": 0
+  },
+  "Ionosphere_bad": {
+    "number_of_samples": 351,
+    "number_of_features": 34,
+    "name": "Ionosphere_bad",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      351,
+      34
+    ],
+    "number_anomalies": 225,
+    "number_normals": 126,
+    "fraction_anomalies": 0.6410256410256411,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 32,
+    "index": 0
+  },
+  "Liver_1": {
+    "number_of_samples": 345,
+    "number_of_features": 6,
+    "name": "Liver_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      345,
+      6
+    ],
+    "number_anomalies": 200,
+    "number_normals": 145,
+    "fraction_anomalies": 0.5797101449275363,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 4,
+    "index": 0
+  },
+  "Liver_2": {
+    "number_of_samples": 345,
+    "number_of_features": 6,
+    "name": "Liver_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      345,
+      6
+    ],
+    "number_anomalies": 145,
+    "number_normals": 200,
+    "fraction_anomalies": 0.42028985507246375,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 4,
+    "index": 0
+  },
+  "Thyriod_normal": {
+    "number_of_samples": 3772,
+    "number_of_features": 21,
+    "name": "Thyriod_normal",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3772,
+      21
+    ],
+    "number_anomalies": 3679,
+    "number_normals": 93,
+    "fraction_anomalies": 0.9753446447507953,
+    "textual": false,
+    "categorical": false,
+    "nominal": 21,
+    "numeric": 0,
+    "index": 0
+  },
+  "Thyriod_hyperfunction": {
+    "number_of_samples": 3772,
+    "number_of_features": 21,
+    "name": "Thyriod_hyperfunction",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3772,
+      21
+    ],
+    "number_anomalies": 3581,
+    "number_normals": 191,
+    "fraction_anomalies": 0.9493637327677624,
+    "textual": false,
+    "categorical": false,
+    "nominal": 21,
+    "numeric": 0,
+    "index": 0
+  },
+  "Thyriod_subnormal": {
+    "number_of_samples": 3772,
+    "number_of_features": 21,
+    "name": "Thyriod_subnormal",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      3772,
+      21
+    ],
+    "number_anomalies": 284,
+    "number_normals": 3488,
+    "fraction_anomalies": 0.07529162248144221,
+    "textual": false,
+    "categorical": false,
+    "nominal": 21,
+    "numeric": 0,
+    "index": 0
+  },
+  "Wine_1": {
+    "number_of_samples": 178,
+    "number_of_features": 13,
+    "name": "Wine_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      178,
+      13
+    ],
+    "number_anomalies": 119,
+    "number_normals": 59,
+    "fraction_anomalies": 0.6685393258426966,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 13,
+    "index": 0
+  },
+  "Wine_2": {
+    "number_of_samples": 178,
+    "number_of_features": 13,
+    "name": "Wine_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      178,
+      13
+    ],
+    "number_anomalies": 107,
+    "number_normals": 71,
+    "fraction_anomalies": 0.601123595505618,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 13,
+    "index": 0
+  },
+  "Wine_3": {
+    "number_of_samples": 178,
+    "number_of_features": 13,
+    "name": "Wine_3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      178,
+      13
+    ],
+    "number_anomalies": 130,
+    "number_normals": 48,
+    "fraction_anomalies": 0.7303370786516854,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 13,
+    "index": 0
+  },
+  "Waveform_0": {
+    "number_of_samples": 900,
+    "number_of_features": 21,
+    "name": "Waveform_0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      900,
+      21
+    ],
+    "number_anomalies": 600,
+    "number_normals": 300,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 21,
+    "index": 0
+  },
+  "Waveform_1": {
+    "number_of_samples": 900,
+    "number_of_features": 21,
+    "name": "Waveform_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      900,
+      21
+    ],
+    "number_anomalies": 600,
+    "number_normals": 300,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 21,
+    "index": 0
+  },
+  "Waveform_2": {
+    "number_of_samples": 900,
+    "number_of_features": 21,
+    "name": "Waveform_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      900,
+      21
+    ],
+    "number_anomalies": 600,
+    "number_normals": 300,
+    "fraction_anomalies": 0.6666666666666666,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 21,
+    "index": 0
+  },
+  "Vowel_0": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_0",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_1": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_1",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_2": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_2",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_3": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_3",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_4": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_4",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_5": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_5",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_6": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_6",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_7": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_7",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_8": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_8",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_9": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_9",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vowel_10": {
+    "number_of_samples": 528,
+    "number_of_features": 10,
+    "name": "Vowel_10",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      528,
+      10
+    ],
+    "number_anomalies": 480,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9090909090909091,
+    "textual": false,
+    "categorical": false,
+    "nominal": 0,
+    "numeric": 10,
+    "index": 0
+  },
+  "Vehicle_van": {
+    "number_of_samples": 846,
+    "number_of_features": 18,
+    "name": "Vehicle_van",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      846,
+      18
+    ],
+    "number_anomalies": 647,
+    "number_normals": 199,
+    "fraction_anomalies": 0.764775413711584,
+    "textual": false,
+    "categorical": false,
+    "nominal": 13,
+    "numeric": 5,
+    "index": 0
+  },
+  "Vehicle_saab": {
+    "number_of_samples": 846,
+    "number_of_features": 18,
+    "name": "Vehicle_saab",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      846,
+      18
+    ],
+    "number_anomalies": 629,
+    "number_normals": 217,
+    "fraction_anomalies": 0.7434988179669031,
+    "textual": false,
+    "categorical": false,
+    "nominal": 13,
+    "numeric": 5,
+    "index": 0
+  },
+  "Vehicle_bus": {
+    "number_of_samples": 846,
+    "number_of_features": 18,
+    "name": "Vehicle_bus",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      846,
+      18
+    ],
+    "number_anomalies": 628,
+    "number_normals": 218,
+    "fraction_anomalies": 0.7423167848699763,
+    "textual": false,
+    "categorical": false,
+    "nominal": 13,
+    "numeric": 5,
+    "index": 0
+  },
+  "Vehicle_opel": {
+    "number_of_samples": 846,
+    "number_of_features": 18,
+    "name": "Vehicle_opel",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      846,
+      18
+    ],
+    "number_anomalies": 634,
+    "number_normals": 212,
+    "fraction_anomalies": 0.7494089834515366,
+    "textual": false,
+    "categorical": false,
+    "nominal": 13,
+    "numeric": 5,
+    "index": 0
+  },
+  "Survival_long": {
+    "number_of_samples": 306,
+    "number_of_features": 3,
+    "name": "Survival_long",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      306,
+      3
+    ],
+    "number_anomalies": 81,
+    "number_normals": 225,
+    "fraction_anomalies": 0.2647058823529412,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1,
+    "numeric": 2,
+    "index": 0
+  },
+  "Survival_short": {
+    "number_of_samples": 306,
+    "number_of_features": 3,
+    "name": "Survival_short",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      306,
+      3
+    ],
+    "number_anomalies": 225,
+    "number_normals": 81,
+    "fraction_anomalies": 0.7352941176470589,
+    "textual": false,
+    "categorical": false,
+    "nominal": 1,
+    "numeric": 2,
+    "index": 0
+  },
+  "Housing_low": {
+    "number_of_samples": 506,
+    "number_of_features": 13,
+    "name": "Housing_low",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      506,
+      13
+    ],
+    "number_anomalies": 48,
+    "number_normals": 458,
+    "fraction_anomalies": 0.09486166007905138,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 9,
+    "index": 0
+  },
+  "Housing_high": {
+    "number_of_samples": 506,
+    "number_of_features": 13,
+    "name": "Housing_high",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      506,
+      13
+    ],
+    "number_anomalies": 458,
+    "number_normals": 48,
+    "fraction_anomalies": 0.9051383399209486,
+    "textual": false,
+    "categorical": false,
+    "nominal": 4,
+    "numeric": 9,
+    "index": 0
+  },
+  "Pageblocks_text": {
+    "number_of_samples": 5473,
+    "number_of_features": 10,
+    "name": "Pageblocks_text",
+    "twodim": true,
+    "threedim": false,
+    "shape": [
+      5473,
+      10
+    ],
+    "number_anomalies": 560,
+    "number_normals": 4913,
+    "fraction_anomalies": 0.10232048236798831,
+    "textual": false,
+    "categorical": false,
+    "nominal": 2,
+    "numeric": 8,
+    "index": 0
+  }
 }
