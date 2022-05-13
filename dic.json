@@ -111,7 +111,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "cifar2": {
     "number_of_samples": 7000,
@@ -130,7 +130,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "cifar3": {
     "number_of_samples": 7000,
@@ -149,7 +149,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "cifar4": {
     "number_of_samples": 7000,
@@ -168,7 +168,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 4
   },
   "cifar5": {
     "number_of_samples": 7000,
@@ -187,7 +187,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 5
   },
   "cifar6": {
     "number_of_samples": 7000,
@@ -206,7 +206,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 6
   },
   "cifar7": {
     "number_of_samples": 7000,
@@ -225,7 +225,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 7
   },
   "cifar8": {
     "number_of_samples": 7000,
@@ -244,7 +244,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 8
   },
   "cifar9": {
     "number_of_samples": 7000,
@@ -263,7 +263,7 @@
     "categorical": false,
     "nominal": 3072,
     "numeric": 0,
-    "index": 0
+    "index": 9
   },
   "cover": {
     "number_of_samples": 286048,
@@ -320,7 +320,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "fashion2": {
     "number_of_samples": 8000,
@@ -339,7 +339,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "fashion3": {
     "number_of_samples": 8000,
@@ -358,7 +358,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "fashion4": {
     "number_of_samples": 8000,
@@ -377,7 +377,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 4
   },
   "fashion5": {
     "number_of_samples": 8000,
@@ -396,7 +396,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 5
   },
   "fashion6": {
     "number_of_samples": 8000,
@@ -415,7 +415,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 6
   },
   "fashion7": {
     "number_of_samples": 8000,
@@ -434,7 +434,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 7
   },
   "fashion8": {
     "number_of_samples": 8000,
@@ -453,7 +453,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 8
   },
   "fashion9": {
     "number_of_samples": 8000,
@@ -472,7 +472,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 9
   },
   "http": {
     "number_of_samples": 567498,
@@ -567,7 +567,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 7
   },
   "mnist1": {
     "number_of_samples": 9012,
@@ -586,7 +586,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "mnist2": {
     "number_of_samples": 8022,
@@ -605,7 +605,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "mnist3": {
     "number_of_samples": 8151,
@@ -624,7 +624,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "mnist4": {
     "number_of_samples": 7806,
@@ -643,7 +643,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 4
   },
   "mnist5": {
     "number_of_samples": 7205,
@@ -662,7 +662,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 5
   },
   "mnist6": {
     "number_of_samples": 7834,
@@ -681,7 +681,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 6
   },
   "mnist7": {
     "number_of_samples": 8321,
@@ -719,7 +719,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 8
   },
   "mnist9": {
     "number_of_samples": 7967,
@@ -738,7 +738,7 @@
     "categorical": false,
     "nominal": 784,
     "numeric": 0,
-    "index": 0
+    "index": 9
   },
   "mnist": {
     "number_of_samples": 7603,
@@ -871,7 +871,7 @@
     "categorical": false,
     "nominal": 36,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "shuttle": {
     "number_of_samples": 49097,
@@ -909,7 +909,7 @@
     "categorical": false,
     "nominal": 3,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "speech": {
     "number_of_samples": 3686,
@@ -1042,7 +1042,7 @@
     "categorical": false,
     "nominal": 27,
     "numeric": 10,
-    "index": 0
+    "index": 1
   },
   "pc3": {
     "number_of_samples": 1563,
@@ -1080,7 +1080,7 @@
     "categorical": false,
     "nominal": 15,
     "numeric": 6,
-    "index": 0
+    "index": 2
   },
   "pc1": {
     "number_of_samples": 1109,
@@ -1099,7 +1099,7 @@
     "categorical": false,
     "nominal": 10,
     "numeric": 11,
-    "index": 0
+    "index": 3
   },
   "OVA_Breast": {
     "number_of_samples": 1545,
@@ -1137,7 +1137,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10936,
-    "index": 0
+    "index": 1
   },
   "ozone-level-8hr": {
     "number_of_samples": 2534,
@@ -1479,7 +1479,7 @@
     "categorical": false,
     "nominal": 51,
     "numeric": 5,
-    "index": 0
+    "index": 1
   },
   "Hepatitis": {
     "number_of_samples": 155,
@@ -1536,7 +1536,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 4,
-    "index": 0
+    "index": 1
   },
   "Iris_virginica": {
     "number_of_samples": 150,
@@ -1555,7 +1555,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 4,
-    "index": 0
+    "index": 2
   },
   "BreastW_malignant": {
     "number_of_samples": 699,
@@ -1574,7 +1574,7 @@
     "categorical": false,
     "nominal": 9,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "BreastW_benign": {
     "number_of_samples": 699,
@@ -1593,7 +1593,7 @@
     "categorical": false,
     "nominal": 9,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "HeartC": {
     "number_of_samples": 297,
@@ -1650,7 +1650,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 60,
-    "index": 0
+    "index": 1
   },
   "Biomed_normal": {
     "number_of_samples": 194,
@@ -1669,7 +1669,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 5,
-    "index": 0
+    "index": 1
   },
   "Biomed_carrier": {
     "number_of_samples": 194,
@@ -1726,7 +1726,7 @@
     "categorical": false,
     "nominal": 199,
     "numeric": 79,
-    "index": 0
+    "index": 1
   },
   "": {
     "number_of_samples": 420,
@@ -1783,7 +1783,7 @@
     "categorical": false,
     "nominal": 4,
     "numeric": 4,
-    "index": 0
+    "index": 1
   },
   "Ecoli": {
     "number_of_samples": 336,
@@ -1840,7 +1840,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "Concordia2": {
     "number_of_samples": 4000,
@@ -1859,7 +1859,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "Concordia3": {
     "number_of_samples": 4000,
@@ -1878,7 +1878,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "Concordia4": {
     "number_of_samples": 4000,
@@ -1897,7 +1897,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 4
   },
   "Concordia5": {
     "number_of_samples": 4000,
@@ -1916,7 +1916,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 5
   },
   "Concordia6": {
     "number_of_samples": 4000,
@@ -1935,7 +1935,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 6
   },
   "Concordia7": {
     "number_of_samples": 4000,
@@ -1954,7 +1954,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 7
   },
   "Concordia8": {
     "number_of_samples": 4000,
@@ -1973,7 +1973,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 8
   },
   "Concordia9": {
     "number_of_samples": 4000,
@@ -1992,7 +1992,7 @@
     "categorical": false,
     "nominal": 1024,
     "numeric": 0,
-    "index": 0
+    "index": 9
   },
   "Concordia0_32": {
     "number_of_samples": 4000,
@@ -2011,7 +2011,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "Concordia1_32": {
     "number_of_samples": 4000,
@@ -2030,7 +2030,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "Concordia2_32": {
     "number_of_samples": 4000,
@@ -2049,7 +2049,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "Concordia3_32": {
     "number_of_samples": 4000,
@@ -2087,7 +2087,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 4
   },
   "Concordia5_32": {
     "number_of_samples": 4000,
@@ -2106,7 +2106,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 5
   },
   "Concordia6_32": {
     "number_of_samples": 4000,
@@ -2125,7 +2125,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 6
   },
   "Concordia7_32": {
     "number_of_samples": 4000,
@@ -2144,7 +2144,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 7
   },
   "Concordia8_32": {
     "number_of_samples": 4000,
@@ -2163,7 +2163,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 8
   },
   "Concordia9_32": {
     "number_of_samples": 4000,
@@ -2182,7 +2182,7 @@
     "categorical": false,
     "nominal": 256,
     "numeric": 0,
-    "index": 0
+    "index": 9
   },
   "Delft_pump_AR": {
     "number_of_samples": 720,
@@ -2220,7 +2220,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 1
   },
   "Delft_pump_5x1": {
     "number_of_samples": 500,
@@ -2239,7 +2239,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 2
   },
   "Delft_pump_3x2": {
     "number_of_samples": 600,
@@ -2258,7 +2258,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 3
   },
   "Delft_pump_2x2": {
     "number_of_samples": 400,
@@ -2277,7 +2277,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 4
   },
   "Delft_pump_1x3": {
     "number_of_samples": 300,
@@ -2296,7 +2296,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 5
   },
   "Delft_pump_5x3_noisy": {
     "number_of_samples": 900,
@@ -2334,7 +2334,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 1
   },
   "Delft_pump_3x2_noisy": {
     "number_of_samples": 360,
@@ -2353,7 +2353,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 2
   },
   "Delft_pump_2x2_noisy": {
     "number_of_samples": 240,
@@ -2372,7 +2372,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 3
   },
   "Delft_pump_1x3_noisy": {
     "number_of_samples": 180,
@@ -2391,7 +2391,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 64,
-    "index": 0
+    "index": 4
   },
   "Spambase_spam": {
     "number_of_samples": 4601,
@@ -2410,7 +2410,7 @@
     "categorical": false,
     "nominal": 51,
     "numeric": 6,
-    "index": 0
+    "index": 1
   },
   "Spambase_other": {
     "number_of_samples": 4601,
@@ -2429,7 +2429,7 @@
     "categorical": false,
     "nominal": 51,
     "numeric": 6,
-    "index": 0
+    "index": 2
   },
   "wpbc_non_ret": {
     "number_of_samples": 198,
@@ -2467,7 +2467,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 33,
-    "index": 0
+    "index": 1
   },
   "Spectf_0": {
     "number_of_samples": 349,
@@ -2505,7 +2505,7 @@
     "categorical": false,
     "nominal": 4,
     "numeric": 40,
-    "index": 0
+    "index": 1
   },
   "Colon_1": {
     "number_of_samples": 62,
@@ -2543,7 +2543,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 1908,
-    "index": 0
+    "index": 1
   },
   "Leukemia_1": {
     "number_of_samples": 72,
@@ -2581,7 +2581,7 @@
     "categorical": false,
     "nominal": 58,
     "numeric": 3513,
-    "index": 0
+    "index": 1
   },
   "Metas_1": {
     "number_of_samples": 145,
@@ -2619,7 +2619,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 4919,
-    "index": 0
+    "index": 2
   },
   "Abalone_1_8": {
     "number_of_samples": 4177,
@@ -2657,7 +2657,7 @@
     "categorical": false,
     "nominal": 6,
     "numeric": 4,
-    "index": 0
+    "index": 1
   },
   "Abalone_11_29": {
     "number_of_samples": 4177,
@@ -2676,7 +2676,7 @@
     "categorical": false,
     "nominal": 6,
     "numeric": 4,
-    "index": 0
+    "index": 2
   },
   "Balance_left": {
     "number_of_samples": 625,
@@ -2714,7 +2714,7 @@
     "categorical": false,
     "nominal": 4,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "Balance_right": {
     "number_of_samples": 625,
@@ -2733,7 +2733,7 @@
     "categorical": false,
     "nominal": 4,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "Glass_building_float": {
     "number_of_samples": 214,
@@ -2771,7 +2771,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 9,
-    "index": 0
+    "index": 1
   },
   "Glass_vehicle": {
     "number_of_samples": 214,
@@ -2790,7 +2790,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 9,
-    "index": 0
+    "index": 2
   },
   "Glass_containers": {
     "number_of_samples": 214,
@@ -2809,7 +2809,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 9,
-    "index": 0
+    "index": 3
   },
   "Glass_tableware": {
     "number_of_samples": 214,
@@ -2828,7 +2828,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 9,
-    "index": 0
+    "index": 4
   },
   "Glass_headlamps": {
     "number_of_samples": 214,
@@ -2847,7 +2847,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 9,
-    "index": 0
+    "index": 5
   },
   "Ionosphere_good": {
     "number_of_samples": 351,
@@ -2866,7 +2866,7 @@
     "categorical": false,
     "nominal": 2,
     "numeric": 32,
-    "index": 0
+    "index": 1
   },
   "Ionosphere_bad": {
     "number_of_samples": 351,
@@ -2885,7 +2885,7 @@
     "categorical": false,
     "nominal": 2,
     "numeric": 32,
-    "index": 0
+    "index": 2
   },
   "Liver_1": {
     "number_of_samples": 345,
@@ -2923,7 +2923,7 @@
     "categorical": false,
     "nominal": 2,
     "numeric": 4,
-    "index": 0
+    "index": 1
   },
   "Thyriod_normal": {
     "number_of_samples": 3772,
@@ -2942,7 +2942,7 @@
     "categorical": false,
     "nominal": 21,
     "numeric": 0,
-    "index": 0
+    "index": 1
   },
   "Thyriod_hyperfunction": {
     "number_of_samples": 3772,
@@ -2961,7 +2961,7 @@
     "categorical": false,
     "nominal": 21,
     "numeric": 0,
-    "index": 0
+    "index": 2
   },
   "Thyriod_subnormal": {
     "number_of_samples": 3772,
@@ -2980,7 +2980,7 @@
     "categorical": false,
     "nominal": 21,
     "numeric": 0,
-    "index": 0
+    "index": 3
   },
   "Wine_1": {
     "number_of_samples": 178,
@@ -2999,7 +2999,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 13,
-    "index": 0
+    "index": 1
   },
   "Wine_2": {
     "number_of_samples": 178,
@@ -3018,7 +3018,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 13,
-    "index": 0
+    "index": 2
   },
   "Wine_3": {
     "number_of_samples": 178,
@@ -3037,7 +3037,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 13,
-    "index": 0
+    "index": 3
   },
   "Waveform_0": {
     "number_of_samples": 900,
@@ -3056,7 +3056,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 21,
-    "index": 0
+    "index": 1
   },
   "Waveform_1": {
     "number_of_samples": 900,
@@ -3075,7 +3075,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 21,
-    "index": 0
+    "index": 2
   },
   "Waveform_2": {
     "number_of_samples": 900,
@@ -3094,7 +3094,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 21,
-    "index": 0
+    "index": 3
   },
   "Vowel_0": {
     "number_of_samples": 528,
@@ -3132,7 +3132,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 1
   },
   "Vowel_2": {
     "number_of_samples": 528,
@@ -3151,7 +3151,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 2
   },
   "Vowel_3": {
     "number_of_samples": 528,
@@ -3170,7 +3170,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 3
   },
   "Vowel_4": {
     "number_of_samples": 528,
@@ -3189,7 +3189,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 4
   },
   "Vowel_5": {
     "number_of_samples": 528,
@@ -3208,7 +3208,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 5
   },
   "Vowel_6": {
     "number_of_samples": 528,
@@ -3227,7 +3227,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 6
   },
   "Vowel_7": {
     "number_of_samples": 528,
@@ -3246,7 +3246,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 7
   },
   "Vowel_8": {
     "number_of_samples": 528,
@@ -3265,7 +3265,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 8
   },
   "Vowel_9": {
     "number_of_samples": 528,
@@ -3284,7 +3284,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 9
   },
   "Vowel_10": {
     "number_of_samples": 528,
@@ -3303,7 +3303,7 @@
     "categorical": false,
     "nominal": 0,
     "numeric": 10,
-    "index": 0
+    "index": 10
   },
   "Vehicle_van": {
     "number_of_samples": 846,
@@ -3341,7 +3341,7 @@
     "categorical": false,
     "nominal": 13,
     "numeric": 5,
-    "index": 0
+    "index": 1
   },
   "Vehicle_bus": {
     "number_of_samples": 846,
@@ -3360,7 +3360,7 @@
     "categorical": false,
     "nominal": 13,
     "numeric": 5,
-    "index": 0
+    "index": 2
   },
   "Vehicle_opel": {
     "number_of_samples": 846,
@@ -3379,7 +3379,7 @@
     "categorical": false,
     "nominal": 13,
     "numeric": 5,
-    "index": 0
+    "index": 3
   },
   "Survival_long": {
     "number_of_samples": 306,
@@ -3417,7 +3417,7 @@
     "categorical": false,
     "nominal": 1,
     "numeric": 2,
-    "index": 0
+    "index": 1
   },
   "Housing_low": {
     "number_of_samples": 506,
@@ -3455,7 +3455,7 @@
     "categorical": false,
     "nominal": 4,
     "numeric": 9,
-    "index": 0
+    "index": 1
   },
   "Pageblocks_text": {
     "number_of_samples": 5473,
@@ -3474,6 +3474,6 @@
     "categorical": false,
     "nominal": 2,
     "numeric": 8,
-    "index": 0
+    "index": 1
   }
 }
